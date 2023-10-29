@@ -120,6 +120,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #d92cf9;
+    /* color: #d92cf9; */
     font-size: 20px;
     font-weight: 600;
     padding: 33px 0px 57px;
@@ -190,8 +191,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
-    background-size:cover;
+    background:url(../images/about/img101.jpg)no-repeat;
+    background-size: cover;
     background-position: center;
     height:890px;
 }
@@ -214,6 +215,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     line-height: 1.5;
 }
 .header-text h2 span {color: #d92cf9;}
+/* {color: #d92cf9;} */
 .header-text p {
     color: #fff;
     font-size: 20px;
