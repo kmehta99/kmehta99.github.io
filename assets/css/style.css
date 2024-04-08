@@ -206,6 +206,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     height:100%;
 }
 
+.temp p{
+    color: whitesmoke;
+    position:absolute;
+}
+
+.welcome-hero .row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
 /*.header-text-area*/
 .header-text h2 {
     color: #fff;
@@ -216,6 +229,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .header-text h2 span {color: #d92cf9;}
 /* {color: #d92cf9;} */
+
 .header-text p {
     color: #fff;
     font-size: 20px;
@@ -248,17 +262,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 .about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
-/*.single-about-txt*/
-.single-about-txt h3 {
-    font-size:18px;
-    color: #3c4258;
-    text-transform: initial;
-    line-height: 1.8;
-}
+
 .single-about-txt p {
     font-size: 16px;
     color: #999fb3;
-    padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
 .single-about-add-info {
@@ -593,6 +600,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
 .single-profile:hover .profile-border {border:transparent;}
+
+/*-------------------------------------
+        RESEARCH  
+--------------------------------------*/
+.about {padding: 50px 0 100px;}
+.about-content {padding-top: 100px;}
+
 /*-------------------------------------
         9. Portfolio
 --------------------------------------*/
@@ -694,9 +708,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     background: #f9fbfd;
     padding: 50px 0 100px;
 }
+
+
+
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {
     margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
     
 }
 .contact-form .form-control {
