@@ -383,7 +383,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.single-skill-content{padding-top: 20px; line-height: 1.8; word-wrap: break-word;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -391,6 +391,12 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
 }
+
+.skillscontainer {
+    max-width: 80%; /* Reduce the width for better alignment */
+    margin: 0 auto; /* Center the content */
+}
+
 .single-progress-txt {
     display: flex;
 }
